@@ -1,33 +1,17 @@
-
-@media only screen and (max-width: 992px) {
-    header,
-    main,
-    footer {
-      padding-left: 0;
-    }
-  }
-  
-  #credits li,
-  #credits li a {
-    color: white;
-  }
-  
-  #credits li a {
-    font-weight: bold;
-  }
-  
-  .footer-copyright .container,
-  .footer-copyright .container a {
-    color: #BCC2E2;
-  }
-  
-  .fab-tip {
-    position: fixed;
-    right: 85px;
-    padding: 0px 0.5rem;
-    text-align: right;
-    background-color: #323232;
-    border-radius: 2px;
-    color: #FFF;
-    width: auto;
-  }
+body{
+  margin-top: 15px;
+}
+.container-fluid{
+  height: 300px;
+  background: red;
+}
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.misidenav{
+  text-align: center;
+}
+img{
+  padding: 15px 0 15px 0;
+}
