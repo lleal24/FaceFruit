@@ -1,2 +1,6 @@
 Proyecto Red Social de Frutas 
-_____________________________
+=============================
+
+Autores
+-------
+Lorena Leal Garcia
