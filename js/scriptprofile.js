@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 if (localStorage.getItem('dato1')) {
     let userTem=localStorage.getItem("dato1");
-    user.innerHTML=  "Usuario: " + userTem;
+    user.innerHTML=  "Usuario: " + "@"+userTem;
     posts.placeholder = "Que piensas: " + userTem;
 } else {
     

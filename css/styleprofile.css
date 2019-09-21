@@ -1,5 +1,6 @@
-body{
-  margin-top: 15px;
+*{
+  margin: 0;
+  padding: 0;
 }
 .container-fluid{
   height: 300px;
@@ -11,7 +12,40 @@ body{
 }
 .misidenav{
   text-align: center;
+  padding: 0;
+  margin: 0;
+  
 }
 img{
   padding: 15px 0 15px 0;
+
+}
+.fontuser{
+  font-size: 25px;
+}
+.comentarios{
+  padding-top: 45px;
+  margin-top: 8px;
+}
+h2{
+  padding: 25px 15px;
+}
+textarea{
+  padding: 20px;
+  height: 20%;
+}
+li{
+  padding: 10px  20px;
+}
+table{
+  width: auto;
+}
+.fotos{
+  padding: 0;
+}
+.sinpadding{
+  padding: 0;
+}
+.noticias{
+  text-align: center;
 }

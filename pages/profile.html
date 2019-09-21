@@ -15,31 +15,85 @@
 </head>
 
 <body>
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    
+    <a class="navbar-brand" href="#">
+      <img src="../img/logo.png" alt="logo" style="width:100px; height: 85px;">
+    </a>
+    
+</nav>
+      
   <div class="container-fluid">
     <div class="row ">
-      <div class="col-md-3 col-fluid" style="background-color: pink">Columna1</div>
-      <div class="col-md-6 " style="background-color: blue">Columna2</div>
-      <div class="col-md-3 misidenav" style="background-color:green">
-      <img class="rounded img-fluid" src="/img/guayabafoto.jpg" alt="" width="200px">
-      
+      <div class="col-md-3 col-fluid noticias comentarios" style="background-color: pink">
+        <h2>Noticias</h2>
+        <div class="card-deck">
+          <div class="card">
+            <img src="../img/foto3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Consigue tu media naranja</h5>
+              <p class="card-text">Podrias encontrar tu media naranja a travez de la nueva app para citas...</p>
+              <p class="card-text"><small class="text-muted">Publicado hace 3 minutos</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <img src="../img/foto1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sal a caminar</h5>
+              <p class="card-text">Un estudio reciente indica que 2 horas de caminata al dia puede hacerte una fruta mas
+                saludable...</p>
+              <p class="card-text"><small class="text-muted">Publicado hace 2 dias</small></p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
+
+      <!-- COLUMNA CENTRAL DE COMENTARIOS -->
+      <div class="col-md-6 comentarios" style="background-color:gray">
+        <h2>Comentarios</h2>
+        <textarea name="" id="post" cols="30" rows="10"></textarea>
+        <button id="btn2" class="btn btn-outline-primary">Publicar</button>
+        <h2>Publicaciones</h2>
+        <ul id="lista">
+          <!-- aqui se crean los elementos desde JavaScript -->
+        </ul>
+      </div>
+
+
+
+      <!-- COLUMNA IZQUIERDA DE PERFIL -->
+      <div class="col-md-3 misidenav" style="background-color:green">
+        <!-- CARD PROFILE -->
+        <div class="card" style="width: auto;">
+          <img src="/img/guayabafoto.jpg" class="card-img-top " alt="..." height="350px">
+          <div class="card-body">
+            <h5 id="user" class="card-title"></h5>
+            <p class="card-text">Soy una fruta dulce que le gustar estar al aire libre y compartir con otras frutas.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Trabajo: Saler en la Fruteria</li>
+            <li class="list-group-item">Estado: Solter@</li>
+            <li class="list-group-item">Fotos</li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-primary">
+                Notificaciones <span class="badge badge-light">4</span>
+              </button>
+            </li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="card-link badge badge-info">TwitFruit</a>
+            <a href="#" class="card-link badge badge-info">InstaFruit</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!--     <p id="user"></p>
-    <p>Work: Saler</p>
-    <p>Friends: Pera, Manzana, Mamoncillo, Uva, Melon... 150+</p>
-    <p>State: Single</p>
-
-    <h2>Comentarios</h2>
-    <textarea name="" id="post" cols="30" rows="10"></textarea>
-    <button id="btn2">Publicar</button>
-    <h2>Publicaciones</h2>
-    <ul id="lista">
-
-
-    </ul> -->
+ 
 
 
 
