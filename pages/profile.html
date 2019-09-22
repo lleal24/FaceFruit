@@ -15,14 +15,14 @@
 </head>
 
 <body>
- <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
     <a class="navbar-brand" href="#">
       <img src="../img/logo.png" alt="logo" style="width:100px; height: 85px;">
     </a>
-    
-</nav>
-      
+
+  </nav>
+
   <div class="container-fluid">
     <div class="row ">
       <div class="col-md-3 col-fluid noticias comentarios" style="background-color: pink">
@@ -55,12 +55,15 @@
       <!-- COLUMNA CENTRAL DE COMENTARIOS -->
       <div class="col-md-6 comentarios" style="background-color:gray">
         <h2>Comentarios</h2>
-        <textarea name="" id="post" cols="30" rows="10"></textarea>
-        <button id="btn2" class="btn btn-outline-primary">Publicar</button>
+        <form id="form" action="">
+          <textarea name="" id="post" cols="30" rows="10"></textarea>
+          <button id="btn2" class="btn btn-outline-primary">Publicar</button>
+        </form>
+
         <h2>Publicaciones</h2>
-        <ul id="lista">
+        <div id="lista">
           <!-- aqui se crean los elementos desde JavaScript -->
-        </ul>
+        </div>
       </div>
 
 
@@ -93,7 +96,7 @@
     </div>
   </div>
 
- 
+
 
 
 
