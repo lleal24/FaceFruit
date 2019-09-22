@@ -1,10 +1,13 @@
+/* https://mdbootstrap.com/docs/jquery/css/colors/ */
+
+
 *{
   margin: 0;
   padding: 0;
 }
 .container-fluid{
   height: 300px;
-  background: red;
+  /* background: red; */
 }
 .no-gutters {
   margin-right: 0;
@@ -48,4 +51,9 @@ table{
 }
 .noticias{
   text-align: center;
+  padding-top: 45px;
+  margin-top: 8px;
+  padding-left: 0;
+  padding-right: 0;
+
 }

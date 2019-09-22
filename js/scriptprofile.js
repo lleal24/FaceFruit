@@ -4,9 +4,6 @@ var boton = document.getElementById('btn2');
 var padre = document.getElementById('lista');
 document.getElementById('form').addEventListener('submit', guardarComentario);
 
-$(document).ready(function () {
-    $('.sidenav').sidenav();
-});
 
 if (localStorage.getItem('dato1')) {
     let userTem = localStorage.getItem("dato1");
