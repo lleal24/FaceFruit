@@ -11,3 +11,7 @@ Construido con
 + CSS
 + Materialize
 + Bootstrap
+
+Vista previa
+------------
+![](/img/vistaPrevia.png)
